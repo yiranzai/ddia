@@ -1,3 +1,21 @@
+<!--ts-->
+   * [設計資料密集型應用 - 中文翻譯](./zh-tw/README.md#設計資料密集型應用---中文翻譯)
+      * [譯序](./zh-tw/README.md#譯序)
+      * [前言](./zh-tw/README.md#前言)
+      * [目錄](./zh-tw/README.md#目錄)
+         * [<a href="preface.md">序言</a>](./zh-tw/README.md#序言)
+         * [<a href="part-i.md">第一部分：資料系統的基石</a>](./zh-tw/README.md#第一部分資料系統的基石)
+         * [<a href="part-ii.md">第二部分：分散式資料</a>](./zh-tw/README.md#第二部分分散式資料)
+         * [<a href="part-iii.md">第三部分：衍生資料</a>](./zh-tw/README.md#第三部分衍生資料)
+         * [<a href="glossary.md">術語表</a>](./zh-tw/README.md#術語表)
+         * [<a href="colophon.md">後記</a>](./zh-tw/README.md#後記)
+      * [法律宣告](./zh-tw/README.md#法律宣告)
+      * [CONTRIBUTION](./zh-tw/README.md#contribution)
+      * [LICENSE](./zh-tw/README.md#license)
+
+<!-- Added by: runner, at: Tue Apr 20 03:41:42 UTC 2021 -->
+
+<!--te-->
 # 設計資料密集型應用 - 中文翻譯 
 
 - 作者： [Martin Kleppmann](https://martin.kleppmann.com)

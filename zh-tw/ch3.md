@@ -1,3 +1,41 @@
+<!--ts-->
+   * [3. 儲存與檢索](./zh-tw/ch3.md#3-儲存與檢索)
+      * [驅動資料庫的資料結構](./zh-tw/ch3.md#驅動資料庫的資料結構)
+         * [雜湊索引](./zh-tw/ch3.md#雜湊索引)
+         * [SSTables和LSM樹](./zh-tw/ch3.md#sstables和lsm樹)
+               * [圖3-4 合併幾個SSTable段，只保留每個鍵的最新值](./zh-tw/ch3.md#圖3-4-合併幾個sstable段只保留每個鍵的最新值)
+            * [構建和維護SSTables](./zh-tw/ch3.md#構建和維護sstables)
+            * [用SSTables製作LSM樹](./zh-tw/ch3.md#用sstables製作lsm樹)
+            * [效能最佳化](./zh-tw/ch3.md#效能最佳化)
+         * [B樹](./zh-tw/ch3.md#b樹)
+            * [讓B樹更可靠](./zh-tw/ch3.md#讓b樹更可靠)
+            * [B樹最佳化](./zh-tw/ch3.md#b樹最佳化)
+         * [比較B樹和LSM樹](./zh-tw/ch3.md#比較b樹和lsm樹)
+            * [LSM樹的優點](./zh-tw/ch3.md#lsm樹的優點)
+            * [LSM樹的缺點](./zh-tw/ch3.md#lsm樹的缺點)
+         * [其他索引結構](./zh-tw/ch3.md#其他索引結構)
+            * [將值儲存在索引中](./zh-tw/ch3.md#將值儲存在索引中)
+            * [多列索引](./zh-tw/ch3.md#多列索引)
+            * [全文搜尋和模糊索引](./zh-tw/ch3.md#全文搜尋和模糊索引)
+            * [在記憶體中儲存一切](./zh-tw/ch3.md#在記憶體中儲存一切)
+      * [事務處理還是分析？](./zh-tw/ch3.md#事務處理還是分析)
+         * [資料倉庫](./zh-tw/ch3.md#資料倉庫)
+            * [OLTP資料庫和資料倉庫之間的分歧](./zh-tw/ch3.md#oltp資料庫和資料倉庫之間的分歧)
+         * [星型和雪花型：分析的模式](./zh-tw/ch3.md#星型和雪花型分析的模式)
+      * [列儲存](./zh-tw/ch3.md#列儲存)
+         * [列壓縮](./zh-tw/ch3.md#列壓縮)
+            * [面向列的儲存和列族](./zh-tw/ch3.md#面向列的儲存和列族)
+            * [記憶體頻寬和向量處理](./zh-tw/ch3.md#記憶體頻寬和向量處理)
+         * [列儲存中的排序順序](./zh-tw/ch3.md#列儲存中的排序順序)
+            * [幾個不同的排序順序](./zh-tw/ch3.md#幾個不同的排序順序)
+         * [寫入列儲存](./zh-tw/ch3.md#寫入列儲存)
+         * [聚合：資料立方體和物化檢視](./zh-tw/ch3.md#聚合資料立方體和物化檢視)
+      * [本章小結](./zh-tw/ch3.md#本章小結)
+      * [參考文獻](./zh-tw/ch3.md#參考文獻)
+
+<!-- Added by: runner, at: Tue Apr 20 03:41:45 UTC 2021 -->
+
+<!--te-->
 # 3. 儲存與檢索 
 
 ![](../img/ch3.png)

@@ -1,3 +1,38 @@
+<!--ts-->
+   * [4. 編碼與演化](./zh-tw/ch4.md#4-編碼與演化)
+      * [編碼資料的格式](./zh-tw/ch4.md#編碼資料的格式)
+            * [術語衝突](./zh-tw/ch4.md#術語衝突)
+         * [語言特定的格式](./zh-tw/ch4.md#語言特定的格式)
+         * [JSON，XML和二進位制變體](./zh-tw/ch4.md#jsonxml和二進位制變體)
+            * [二進位制編碼](./zh-tw/ch4.md#二進位制編碼)
+         * [Thrift與Protocol Buffers](./zh-tw/ch4.md#thrift與protocol-buffers)
+            * [欄位標籤和模式演變](./zh-tw/ch4.md#欄位標籤和模式演變)
+            * [資料型別和模式演變](./zh-tw/ch4.md#資料型別和模式演變)
+         * [Avro](./zh-tw/ch4.md#avro)
+            * [作者模式與讀者模式](./zh-tw/ch4.md#作者模式與讀者模式)
+            * [模式演變規則](./zh-tw/ch4.md#模式演變規則)
+               * [但作者模式到底是什麼？](./zh-tw/ch4.md#但作者模式到底是什麼)
+            * [動態生成的模式](./zh-tw/ch4.md#動態生成的模式)
+            * [程式碼生成和動態型別的語言](./zh-tw/ch4.md#程式碼生成和動態型別的語言)
+         * [模式的優點](./zh-tw/ch4.md#模式的優點)
+      * [資料流的型別](./zh-tw/ch4.md#資料流的型別)
+         * [資料庫中的資料流](./zh-tw/ch4.md#資料庫中的資料流)
+            * [在不同的時間寫入不同的值](./zh-tw/ch4.md#在不同的時間寫入不同的值)
+            * [歸檔儲存](./zh-tw/ch4.md#歸檔儲存)
+         * [服務中的資料流：REST與RPC](./zh-tw/ch4.md#服務中的資料流rest與rpc)
+            * [Web服務](./zh-tw/ch4.md#web服務)
+            * [遠端過程呼叫（RPC）的問題](./zh-tw/ch4.md#遠端過程呼叫rpc的問題)
+            * [RPC的當前方向](./zh-tw/ch4.md#rpc的當前方向)
+            * [資料編碼與RPC的演化](./zh-tw/ch4.md#資料編碼與rpc的演化)
+         * [訊息傳遞中的資料流](./zh-tw/ch4.md#訊息傳遞中的資料流)
+            * [訊息掮客](./zh-tw/ch4.md#訊息掮客)
+            * [分散式的Actor框架](./zh-tw/ch4.md#分散式的actor框架)
+      * [本章小結](./zh-tw/ch4.md#本章小結)
+      * [參考文獻](./zh-tw/ch4.md#參考文獻)
+
+<!-- Added by: runner, at: Tue Apr 20 03:41:40 UTC 2021 -->
+
+<!--te-->
 # 4. 編碼與演化 
 
 ![](../img/ch4.png)

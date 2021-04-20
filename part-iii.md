@@ -1,3 +1,14 @@
+<!--ts-->
+   * [第三部分：衍生数据](./part-iii.md#第三部分衍生数据)
+      * [记录和衍生数据系统](./part-iii.md#记录和衍生数据系统)
+            * [记录系统（System of record）](./part-iii.md#记录系统system-of-record)
+            * [衍生数据系统（Derived data systems）](./part-iii.md#衍生数据系统derived-data-systems)
+      * [章节概述](./part-iii.md#章节概述)
+      * [索引](./part-iii.md#索引)
+
+<!-- Added by: runner, at: Tue Apr 20 03:41:37 UTC 2021 -->
+
+<!--te-->
 # 第三部分：衍生数据
 
 在本书的[第一部分](part-i.md)和[第二部分](part-ii.md)中，我们自底向上地把所有关于分布式数据库的主要考量都过了一遍。从数据在磁盘上的布局，一直到出现故障时分布式系统一致性的局限。但所有的讨论都假定了应用中只用了一种数据库。

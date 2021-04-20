@@ -1,3 +1,15 @@
+<!--ts-->
+   * [序言](./zh-tw/preface.md#序言)
+      * [本書的目標讀者](./zh-tw/preface.md#本書的目標讀者)
+      * [本書涉及的領域](./zh-tw/preface.md#本書涉及的領域)
+      * [本書綱要](./zh-tw/preface.md#本書綱要)
+      * [參考文獻與延伸閱讀](./zh-tw/preface.md#參考文獻與延伸閱讀)
+      * [O‘Reilly Safari](./zh-tw/preface.md#oreilly-safari)
+      * [致謝](./zh-tw/preface.md#致謝)
+
+<!-- Added by: runner, at: Tue Apr 20 03:41:40 UTC 2021 -->
+
+<!--te-->
 # 序言
 
 如果近幾年從業於軟體工程，特別是伺服器端和後端系統開發，那麼您很有可能已經被大量關於資料儲存和處理的時髦詞彙轟炸過了： NoSQL！大資料！Web-Scale！分片！最終一致性！ACID！ CAP定理！雲服務！MapReduce！實時！

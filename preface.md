@@ -1,3 +1,15 @@
+<!--ts-->
+   * [序言](./preface.md#序言)
+      * [本书的目标读者](./preface.md#本书的目标读者)
+      * [本书涉及的领域](./preface.md#本书涉及的领域)
+      * [本书纲要](./preface.md#本书纲要)
+      * [参考文献与延伸阅读](./preface.md#参考文献与延伸阅读)
+      * [O‘Reilly Safari](./preface.md#oreilly-safari)
+      * [致谢](./preface.md#致谢)
+
+<!-- Added by: runner, at: Tue Apr 20 03:41:36 UTC 2021 -->
+
+<!--te-->
 # 序言
 
 如果近几年从业于软件工程，特别是服务器端和后端系统开发，那么您很有可能已经被大量关于数据存储和处理的时髦词汇轰炸过了： NoSQL！大数据！Web-Scale！分片！最终一致性！ACID！ CAP定理！云服务！MapReduce！实时！

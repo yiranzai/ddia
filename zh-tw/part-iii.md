@@ -1,3 +1,14 @@
+<!--ts-->
+   * [第三部分：衍生資料](./zh-tw/part-iii.md#第三部分衍生資料)
+      * [記錄和衍生資料系統](./zh-tw/part-iii.md#記錄和衍生資料系統)
+            * [記錄系統（System of record）](./zh-tw/part-iii.md#記錄系統system-of-record)
+            * [衍生資料系統（Derived data systems）](./zh-tw/part-iii.md#衍生資料系統derived-data-systems)
+      * [章節概述](./zh-tw/part-iii.md#章節概述)
+      * [索引](./zh-tw/part-iii.md#索引)
+
+<!-- Added by: runner, at: Tue Apr 20 03:41:41 UTC 2021 -->
+
+<!--te-->
 # 第三部分：衍生資料
 
 在本書的[第一部分](part-i.md)和[第二部分](part-ii.md)中，我們自底向上地把所有關於分散式資料庫的主要考量都過了一遍。從資料在磁碟上的佈局，一直到出現故障時分散式系統一致性的侷限。但所有的討論都假定了應用中只用了一種資料庫。
